@@ -14,6 +14,10 @@
 		CF66775A1B175F780020770B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6677591B175F780020770B /* Images.xcassets */; };
 		CF66775D1B175F780020770B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF66775B1B175F780020770B /* LaunchScreen.xib */; };
 		CF6677691B175F780020770B /* SKViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6677681B175F780020770B /* SKViewTestTests.m */; };
+		CF6677741B17600F0020770B /* ZHScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6677731B17600F0020770B /* ZHScene.m */; };
+		CF6677781B17616A0020770B /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6677761B17616A0020770B /* spark.png */; };
+		CF66777A1B1761F10020770B /* emitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF6677791B1761F10020770B /* emitter.sks */; };
+		CF66777C1B1765450020770B /* rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF66777B1B1765450020770B /* rain.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		CF6677621B175F780020770B /* SKViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6677671B175F780020770B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF6677681B175F780020770B /* SKViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKViewTestTests.m; sourceTree = "<group>"; };
+		CF6677721B17600F0020770B /* ZHScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHScene.h; sourceTree = "<group>"; };
+		CF6677731B17600F0020770B /* ZHScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHScene.m; sourceTree = "<group>"; };
+		CF6677761B17616A0020770B /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		CF6677791B1761F10020770B /* emitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = emitter.sks; sourceTree = "<group>"; };
+		CF66777B1B1765450020770B /* rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = rain.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,11 @@
 				CF6677591B175F780020770B /* Images.xcassets */,
 				CF66775B1B175F780020770B /* LaunchScreen.xib */,
 				CF66774C1B175F780020770B /* Supporting Files */,
+				CF6677721B17600F0020770B /* ZHScene.h */,
+				CF6677731B17600F0020770B /* ZHScene.m */,
+				CF6677761B17616A0020770B /* spark.png */,
+				CF6677791B1761F10020770B /* emitter.sks */,
+				CF66777B1B1765450020770B /* rain.sks */,
 			);
 			path = SKViewTest;
 			sourceTree = "<group>";
@@ -199,9 +213,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6677781B17616A0020770B /* spark.png in Resources */,
+				CF66777A1B1761F10020770B /* emitter.sks in Resources */,
 				CF6677581B175F780020770B /* Main.storyboard in Resources */,
 				CF66775D1B175F780020770B /* LaunchScreen.xib in Resources */,
 				CF66775A1B175F780020770B /* Images.xcassets in Resources */,
+				CF66777C1B1765450020770B /* rain.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6677741B17600F0020770B /* ZHScene.m in Sources */,
 				CF6677551B175F780020770B /* ViewController.m in Sources */,
 				CF6677521B175F780020770B /* AppDelegate.m in Sources */,
 				CF66774F1B175F780020770B /* main.m in Sources */,
