@@ -36,6 +36,8 @@
     self.skView.center = self.view.center;
     
     
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

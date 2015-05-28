@@ -18,6 +18,7 @@
 		CF6677781B17616A0020770B /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = CF6677761B17616A0020770B /* spark.png */; };
 		CF66777A1B1761F10020770B /* emitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF6677791B1761F10020770B /* emitter.sks */; };
 		CF66777C1B1765450020770B /* rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF66777B1B1765450020770B /* rain.sks */; };
+		CF66777E1B176C430020770B /* knock.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF66777D1B176BFD0020770B /* knock.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CF6677761B17616A0020770B /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		CF6677791B1761F10020770B /* emitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = emitter.sks; sourceTree = "<group>"; };
 		CF66777B1B1765450020770B /* rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = rain.sks; sourceTree = "<group>"; };
+		CF66777D1B176BFD0020770B /* knock.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = knock.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CF6677761B17616A0020770B /* spark.png */,
 				CF6677791B1761F10020770B /* emitter.sks */,
 				CF66777B1B1765450020770B /* rain.sks */,
+				CF66777D1B176BFD0020770B /* knock.m4a */,
 			);
 			path = SKViewTest;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF66777E1B176C430020770B /* knock.m4a in Resources */,
 				CF6677781B17616A0020770B /* spark.png in Resources */,
 				CF66777A1B1761F10020770B /* emitter.sks in Resources */,
 				CF6677581B175F780020770B /* Main.storyboard in Resources */,
